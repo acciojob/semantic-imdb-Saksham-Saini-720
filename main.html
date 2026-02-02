@@ -1,16 +1,125 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <title>Interstellar - Movie Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #0f172a;
+            color: #e5e7eb;
+            line-height: 1.6;
+        }
 
+        header {
+            background: #020617;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        nav {
+            background: #1e293b;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #38bdf8;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+            background: #020617;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        aside {
+            background: #1e293b;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        footer {
+            background: #020617;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <!-- Header -->
+    <header>
+        Interstellar
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a id="nav-actor" href="#actor">Actors</a>
+        <a id="nav-quote" href="#quote">Quotes</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Summary Section -->
+        <section>
+            <h2>Movie Summary</h2>
+            <p>
+                Interstellar is a science fiction film that follows a group of astronauts
+                who travel through a wormhole near Saturn in search of a new habitable planet
+                for humanity. The movie explores themes of time, love, sacrifice, and survival
+                beyond Earth.
+            </p>
+        </section>
+
+        <!-- Actors Section -->
+        <section id="actor">
+            <h2>Main Actors</h2>
+            <p>
+                The movie stars Matthew McConaughey as Cooper, Anne Hathaway as Dr. Amelia Brand,
+                Jessica Chastain as Murph, and Michael Caine as Professor Brand.
+            </p>
+        </section>
+
+        <!-- Quote Section -->
+        <section id="quote">
+            <h2>Favorite Quote</h2>
+            <p>
+                "Love is the one thing that transcends time and space."
+            </p>
+        </section>
+
+        <!-- Aside Section -->
+        <aside>
+            <h3>Movie Info</h3>
+            <p>IMDb Rating: ⭐ 8.6/10</p>
+            <p>Release Date: 7 November 2014</p>
+        </aside>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        Produced by: Christopher Nolan
+    </footer>
 
 </body>
-
 </html>
